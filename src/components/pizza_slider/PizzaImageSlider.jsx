@@ -16,7 +16,7 @@ const PizzaImageSlider = ({ images, selectedItem }) => {
   }
 
   return (
-    <div className="flex-1 relative  w-full overflow-hidden flex justify-center items-center">
+    <div className="hidden flex-1 relative  w-full overflow-hidden md:flex justify-center items-center">
       <div
         className="absolute -left-44 top-100 lg:-left-20 h-20 w-20 rounded-full flex justify-center items-center"
         style={{

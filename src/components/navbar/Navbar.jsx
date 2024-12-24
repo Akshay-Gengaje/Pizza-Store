@@ -16,11 +16,11 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-screen  -z-10">
+    <div className="w-full h-20 sticky top-0 z-50 bg-white shadow-md">
       {/* Navbar Container */}
-      <div className="flex items-center justify-around p-3">
+      <div className="flex items-center justify-around py-3">
         {/* Logo */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 hover:cursor-pointer">
           <img src="/logo/pizza-slice.png" alt="logo" className="h-16" />
           <h1 className="font-playwrite text-2xl font-bold">
             <span className="text-orange-400">Pizz</span>

@@ -14,7 +14,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="w-full flex flex-col md:flex-row">
+      <div className="w-full flex flex-col md:flex-row h-screen">
         <PizzaImageSlider images={images} selectedItem={selectedItem} />
         <PizzaNameSlider
           images={images}
